@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/869dc8f5ef.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <title>login CSS</title>
+  </head>
+  <body>
+    <div class="header">
+      <p>OswAdmin</p>
+    </div>
+
+    <div class="container" id="container">
+
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Crea tu Cuenta</h1>
+          <input type="text" placeholder="Nombre" />
+          <input type="email" placeholder="Correo Electronico" />
+          <input type="password" placeholder="Contraseña" />
+          <button id="lila">Registrar</button>
+        </form>
+      </div>
+
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Iniciar Sesión</h1>
+          <input type="email" placeholder="Nombre de usuario" />
+          <input type="password" placeholder="Contraseña" />
+          <a href="#">Olvidaste tu contraseña?</a>
+          <button>Iniciar sesión</button>
+        </form>
+      </div>
+
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>¡Bienvenido!</h1>
+            <p>
+              Inicia sesión con tu cuenta
+            </p>
+            <button class="ghost" id="signIn">Inicia sesión</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <p><h1>Crear tu cuenta</h1></p>
+            <button class="ghost" id="signUp">Registrar</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
